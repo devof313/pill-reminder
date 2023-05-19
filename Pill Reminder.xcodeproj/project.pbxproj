@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8658ACE12491D8DA00CBD83A /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658ACE02491D8DA00CBD83A /* homeViewController.swift */; };
+		86951C6624915FBC005FBC12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86951C6524915FBB005FBC12 /* Assets.xcassets */; };
+		C60AD35A237B4B570068BFDE /* VCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60AD359237B4B570068BFDE /* VCHelper.swift */; };
+		C661B7BA237B098600FAD568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7B9237B098600FAD568 /* AppDelegate.swift */; };
+		C661B7C1237B098600FAD568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C661B7BF237B098600FAD568 /* Main.storyboard */; };
+		C661B7C4237B098600FAD568 /* Pill_Reminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C661B7C2237B098600FAD568 /* Pill_Reminder.xcdatamodeld */; };
+		C661B7C9237B098800FAD568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C661B7C7237B098800FAD568 /* LaunchScreen.storyboard */; };
+		C661B7E9237B33B300FAD568 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7E8237B33B300FAD568 /* MainVC.swift */; };
+		C661B7EB237B33C000FAD568 /* AddPillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7EA237B33C000FAD568 /* AddPillVC.swift */; };
+		C661B7EF237B347800FAD568 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7EC237B347800FAD568 /* CardView.swift */; };
+		C661B7F0237B347800FAD568 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7ED237B347800FAD568 /* PaddingLabel.swift */; };
+		C661B7F1237B347800FAD568 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7EE237B347800FAD568 /* RoundButton.swift */; };
+		C661B7F3237B35C600FAD568 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7F2237B35C600FAD568 /* ColorCell.swift */; };
+		C661B7F5237B3BD300FAD568 /* PillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7F4237B3BD300FAD568 /* PillCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8658ACE02491D8DA00CBD83A /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		86951C6524915FBB005FBC12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C60AD359237B4B570068BFDE /* VCHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCHelper.swift; sourceTree = "<group>"; };
+		C661B7B6237B098600FAD568 /* Personal Nurse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Nurse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C661B7B9237B098600FAD568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C661B7C0237B098600FAD568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C661B7C3237B098600FAD568 /* Pill_Reminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pill_Reminder.xcdatamodel; sourceTree = "<group>"; };
+		C661B7C8237B098800FAD568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C661B7CA237B098800FAD568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C661B7E8237B33B300FAD568 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		C661B7EA237B33C000FAD568 /* AddPillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPillVC.swift; sourceTree = "<group>"; };
+		C661B7EC237B347800FAD568 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C661B7ED237B347800FAD568 /* PaddingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		C661B7EE237B347800FAD568 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		C661B7F2237B35C600FAD568 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
+		C661B7F4237B3BD300FAD568 /* PillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C661B7B3237B098600FAD568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C661B7AD237B098600FAD568 = {
+			isa = PBXGroup;
+			children = (
+				C661B7B8237B098600FAD568 /* PIll Reminder */,
+				C661B7B7237B098600FAD568 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C661B7B7237B098600FAD568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C661B7B6237B098600FAD568 /* Personal Nurse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C661B7B8237B098600FAD568 /* PIll Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				C661B7E7237B338200FAD568 /* Controller */,
+				C661B7E6237B337600FAD568 /* Library */,
+				C661B7D0237B16EB00FAD568 /* View */,
+				C661B7B9237B098600FAD568 /* AppDelegate.swift */,
+				C661B7BF237B098600FAD568 /* Main.storyboard */,
+				86951C6524915FBB005FBC12 /* Assets.xcassets */,
+				C661B7C7237B098800FAD568 /* LaunchScreen.storyboard */,
+				C661B7CA237B098800FAD568 /* Info.plist */,
+				C661B7C2237B098600FAD568 /* Pill_Reminder.xcdatamodeld */,
+			);
+			path = "PIll Reminder";
+			sourceTree = "<group>";
+		};
+		C661B7D0237B16EB00FAD568 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C661B7F2237B35C600FAD568 /* ColorCell.swift */,
+				C661B7F4237B3BD300FAD568 /* PillCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C661B7E6237B337600FAD568 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C661B7EC237B347800FAD568 /* CardView.swift */,
+				C661B7ED237B347800FAD568 /* PaddingLabel.swift */,
+				C661B7EE237B347800FAD568 /* RoundButton.swift */,
+				C60AD359237B4B570068BFDE /* VCHelper.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		C661B7E7237B338200FAD568 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C661B7E8237B33B300FAD568 /* MainVC.swift */,
+				C661B7EA237B33C000FAD568 /* AddPillVC.swift */,
+				8658ACE02491D8DA00CBD83A /* homeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C661B7B5237B098600FAD568 /* Pill Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C661B7CD237B098800FAD568 /* Build configuration list for PBXNativeTarget "Pill Reminder" */;
+			buildPhases = (
+				C661B7B2237B098600FAD568 /* Sources */,
+				C661B7B3237B098600FAD568 /* Frameworks */,
+				C661B7B4237B098600FAD568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pill Reminder";
+			productName = "Pill Reminder";
+			productReference = C661B7B6237B098600FAD568 /* Personal Nurse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C661B7AE237B098600FAD568 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = shalchian;
+				TargetAttributes = {
+					C661B7B5237B098600FAD568 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C661B7B1237B098600FAD568 /* Build configuration list for PBXProject "Pill Reminder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C661B7AD237B098600FAD568;
+			productRefGroup = C661B7B7237B098600FAD568 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C661B7B5237B098600FAD568 /* Pill Reminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C661B7B4237B098600FAD568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C661B7C9237B098800FAD568 /* LaunchScreen.storyboard in Resources */,
+				86951C6624915FBC005FBC12 /* Assets.xcassets in Resources */,
+				C661B7C1237B098600FAD568 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C661B7B2237B098600FAD568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C661B7F0237B347800FAD568 /* PaddingLabel.swift in Sources */,
+				C661B7F3237B35C600FAD568 /* ColorCell.swift in Sources */,
+				C661B7C4237B098600FAD568 /* Pill_Reminder.xcdatamodeld in Sources */,
+				C661B7F1237B347800FAD568 /* RoundButton.swift in Sources */,
+				C661B7F5237B3BD300FAD568 /* PillCell.swift in Sources */,
+				C661B7EB237B33C000FAD568 /* AddPillVC.swift in Sources */,
+				C60AD35A237B4B570068BFDE /* VCHelper.swift in Sources */,
+				C661B7E9237B33B300FAD568 /* MainVC.swift in Sources */,
+				8658ACE12491D8DA00CBD83A /* homeViewController.swift in Sources */,
+				C661B7BA237B098600FAD568 /* AppDelegate.swift in Sources */,
+				C661B7EF237B347800FAD568 /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C661B7BF237B098600FAD568 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C661B7C0237B098600FAD568 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C661B7C7237B098800FAD568 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C661B7C8237B098800FAD568 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C661B7CB237B098800FAD568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C661B7CC237B098800FAD568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C661B7CE237B098800FAD568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4C26EK8EJ;
+				INFOPLIST_FILE = "Pill Reminder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shalchian.com.PillReminder;
+				PRODUCT_NAME = "Personal Nurse";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C661B7CF237B098800FAD568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4C26EK8EJ;
+				INFOPLIST_FILE = "Pill Reminder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shalchian.com.PillReminder;
+				PRODUCT_NAME = "Personal Nurse";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C661B7B1237B098600FAD568 /* Build configuration list for PBXProject "Pill Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C661B7CB237B098800FAD568 /* Debug */,
+				C661B7CC237B098800FAD568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C661B7CD237B098800FAD568 /* Build configuration list for PBXNativeTarget "Pill Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C661B7CE237B098800FAD568 /* Debug */,
+				C661B7CF237B098800FAD568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C661B7C2237B098600FAD568 /* Pill_Reminder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C661B7C3237B098600FAD568 /* Pill_Reminder.xcdatamodel */,
+			);
+			currentVersion = C661B7C3237B098600FAD568 /* Pill_Reminder.xcdatamodel */;
+			path = Pill_Reminder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C661B7AE237B098600FAD568 /* Project object */;
+}
