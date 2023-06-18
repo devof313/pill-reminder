@@ -47,11 +47,6 @@ The Pill Reminder iOS Application is open-source and licensed under the [MIT Lic
 
 ## Support
 
-If you encounter any issues or have any questions, please feel free to create an issue in the [GitHub issue tracker](https://github.com/your-username/pill-reminder/issues). We appreciate your feedback and will strive to address any concerns promptly.
-
-Stay on track with your medication regimen using the Pill Reminder iOS Application. Let it help you lead a healthier and more organized life!
-
-*Note: The above description is a sample representation and can be customized as per your project's specific details.*
-
+If you encounter any issues or have any questions, please feel free to contact me
 
 
