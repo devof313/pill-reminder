@@ -5,7 +5,7 @@ The Pill Reminder iOS application is a user-friendly and intuitive solution deve
 
 
 
-![Neon gradient mobile mockup instagram post ](https://github.com/devof313/pill-reminder/assets/134063162/e832ac66-1df3-4f9c-8793-f1e6af36e2e0)
+(https://github.com/devof313/pill-reminder/assets/134063162/e832ac66-1df3-4f9c-8793-f1e6af36e2e0)
 
 
 
